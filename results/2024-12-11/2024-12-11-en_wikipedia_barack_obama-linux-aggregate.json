@@ -1,0 +1,397 @@
+{
+  "test": "en_wikipedia_barack_obama",
+  "platform": "linux",
+  "date": "2024-12-11",
+  "video_side_by_side": "2024-12-11-linux-en_wikipedia_barack_obama-side-by-side.mp4",
+  "firefox": {
+    "filmstrip_interval": 100,
+    "filmstrip": {
+      "00000": "2024-12-11-linux-en_wikipedia_barack_obama-firefox_00000.png",
+      "00100": "2024-12-11-linux-en_wikipedia_barack_obama-firefox_00100.png",
+      "00200": "2024-12-11-linux-en_wikipedia_barack_obama-firefox_00200.png",
+      "00300": "2024-12-11-linux-en_wikipedia_barack_obama-firefox_00300.png",
+      "00400": "2024-12-11-linux-en_wikipedia_barack_obama-firefox_00400.png",
+      "00500": "2024-12-11-linux-en_wikipedia_barack_obama-firefox_00500.png",
+      "00600": "2024-12-11-linux-en_wikipedia_barack_obama-firefox_00600.png",
+      "00700": "2024-12-11-linux-en_wikipedia_barack_obama-firefox_00700.png",
+      "00800": "2024-12-11-linux-en_wikipedia_barack_obama-firefox_00800.png",
+      "00900": "2024-12-11-linux-en_wikipedia_barack_obama-firefox_00900.png",
+      "01000": "2024-12-11-linux-en_wikipedia_barack_obama-firefox_01000.png",
+      "01100": "2024-12-11-linux-en_wikipedia_barack_obama-firefox_01100.png",
+      "01200": "2024-12-11-linux-en_wikipedia_barack_obama-firefox_01200.png",
+      "01300": "2024-12-11-linux-en_wikipedia_barack_obama-firefox_01300.png",
+      "01400": "2024-12-11-linux-en_wikipedia_barack_obama-firefox_01400.png",
+      "01500": "2024-12-11-linux-en_wikipedia_barack_obama-firefox_01500.png",
+      "01600": "2024-12-11-linux-en_wikipedia_barack_obama-firefox_01600.png",
+      "01700": "2024-12-11-linux-en_wikipedia_barack_obama-firefox_01700.png",
+      "01800": "2024-12-11-linux-en_wikipedia_barack_obama-firefox_01800.png",
+      "01900": "2024-12-11-linux-en_wikipedia_barack_obama-firefox_01900.png",
+      "02000": "2024-12-11-linux-en_wikipedia_barack_obama-firefox_02000.png",
+      "02100": "2024-12-11-linux-en_wikipedia_barack_obama-firefox_02100.png"
+    },
+    "metrics": {
+      "fcp": {
+        "median": "1134",
+        "stddev": "65.000000",
+        "rsd": "5.761359"
+      },
+      "largestContentfulPaintloadTime": {
+        "median": "1160",
+        "stddev": "36.000000",
+        "rsd": "3.155534"
+      },
+      "largestContentfulPaintrenderTime": {
+        "median": "1190",
+        "stddev": "119.000000",
+        "rsd": "9.460008"
+      },
+      "redirectStart": {
+        "median": "0",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "redirectEnd": {
+        "median": "0",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "fetchStart": {
+        "median": "0",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "domainLookupStart": {
+        "median": "3",
+        "stddev": "0.000000",
+        "rsd": "13.808115"
+      },
+      "connectStart": {
+        "median": "3",
+        "stddev": "1.000000",
+        "rsd": "15.810183"
+      },
+      "requestStart": {
+        "median": "8",
+        "stddev": "1.000000",
+        "rsd": "7.292350"
+      },
+      "responseStart": {
+        "median": "10",
+        "stddev": "1.000000",
+        "rsd": "7.948043"
+      },
+      "domInteractive": {
+        "median": "1174",
+        "stddev": "47.000000",
+        "rsd": "4.025220"
+      },
+      "domComplete": {
+        "median": "1477",
+        "stddev": "22.000000",
+        "rsd": "1.481320"
+      },
+      "loadEventEnd": {
+        "median": "1477",
+        "stddev": "22.000000",
+        "rsd": "1.481194"
+      },
+      "SpeedIndex": {
+        "median": "1210",
+        "stddev": "32.000000",
+        "rsd": "2.714497"
+      },
+      "VisualComplete85": {
+        "median": "1200",
+        "stddev": "36.000000",
+        "rsd": "3.048028"
+      },
+      "LastVisualChange": {
+        "median": "2200",
+        "stddev": "52.000000",
+        "rsd": "2.373898"
+      },
+      "lcp_element": "\"\"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/President_Barack_Obama.jpg/220px-President_Barack_Obama.jpg\"\"",
+      "PerceptualSpeedIndexProgress": [
+        {
+          "timestamp": "0.000000",
+          "percent": "0"
+        },
+        {
+          "timestamp": "1200.000000",
+          "percent": "99"
+        },
+        {
+          "timestamp": "1240.000000",
+          "percent": "99"
+        },
+        {
+          "timestamp": "1440.000000",
+          "percent": "99"
+        },
+        {
+          "timestamp": "1560.000000",
+          "percent": "99"
+        },
+        {
+          "timestamp": "1840.000000",
+          "percent": "99"
+        },
+        {
+          "timestamp": "2160.000000",
+          "percent": "100"
+        }
+      ],
+      "ContentfulSpeedIndexProgress": [
+        {
+          "timestamp": "0.000000",
+          "percent": "0"
+        },
+        {
+          "timestamp": "1200.000000",
+          "percent": "100"
+        },
+        {
+          "timestamp": "1240.000000",
+          "percent": "100"
+        },
+        {
+          "timestamp": "1440.000000",
+          "percent": "100"
+        },
+        {
+          "timestamp": "1560.000000",
+          "percent": "100"
+        },
+        {
+          "timestamp": "1840.000000",
+          "percent": "100"
+        },
+        {
+          "timestamp": "2160.000000",
+          "percent": "100"
+        }
+      ],
+      "SpeedIndexProgress": [
+        {
+          "timestamp": "0.000000",
+          "percent": "0"
+        },
+        {
+          "timestamp": "1200.000000",
+          "percent": "98"
+        },
+        {
+          "timestamp": "1240.000000",
+          "percent": "99"
+        },
+        {
+          "timestamp": "1440.000000",
+          "percent": "99"
+        },
+        {
+          "timestamp": "1560.000000",
+          "percent": "99"
+        },
+        {
+          "timestamp": "1840.000000",
+          "percent": "99"
+        },
+        {
+          "timestamp": "2160.000000",
+          "percent": "100"
+        }
+      ]
+    }
+  },
+  "chrome": {
+    "filmstrip_interval": 100,
+    "filmstrip": {
+      "00000": "2024-12-11-linux-en_wikipedia_barack_obama-chrome_00000.png",
+      "00100": "2024-12-11-linux-en_wikipedia_barack_obama-chrome_00100.png",
+      "00200": "2024-12-11-linux-en_wikipedia_barack_obama-chrome_00200.png",
+      "00300": "2024-12-11-linux-en_wikipedia_barack_obama-chrome_00300.png",
+      "00400": "2024-12-11-linux-en_wikipedia_barack_obama-chrome_00400.png",
+      "00500": "2024-12-11-linux-en_wikipedia_barack_obama-chrome_00500.png",
+      "00600": "2024-12-11-linux-en_wikipedia_barack_obama-chrome_00600.png",
+      "00700": "2024-12-11-linux-en_wikipedia_barack_obama-chrome_00700.png",
+      "00800": "2024-12-11-linux-en_wikipedia_barack_obama-chrome_00800.png",
+      "00900": "2024-12-11-linux-en_wikipedia_barack_obama-chrome_00900.png",
+      "01000": "2024-12-11-linux-en_wikipedia_barack_obama-chrome_01000.png",
+      "01100": "2024-12-11-linux-en_wikipedia_barack_obama-chrome_01100.png",
+      "01200": "2024-12-11-linux-en_wikipedia_barack_obama-chrome_01200.png"
+    },
+    "metrics": {
+      "fcp": {
+        "median": "262",
+        "stddev": "32.000000",
+        "rsd": "11.948007"
+      },
+      "largestContentfulPaintloadTime": {
+        "median": "0",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "largestContentfulPaintrenderTime": {
+        "median": "262",
+        "stddev": "32.000000",
+        "rsd": "11.948007"
+      },
+      "redirectStart": {
+        "median": "0",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "redirectEnd": {
+        "median": "0",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "fetchStart": {
+        "median": "1",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "domainLookupStart": {
+        "median": "1",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "connectStart": {
+        "median": "2",
+        "stddev": "0.000000",
+        "rsd": "18.181818"
+      },
+      "requestStart": {
+        "median": "41",
+        "stddev": "18.000000",
+        "rsd": "37.432188"
+      },
+      "responseStart": {
+        "median": "60",
+        "stddev": "18.000000",
+        "rsd": "27.563910"
+      },
+      "domInteractive": {
+        "median": "837",
+        "stddev": "125.000000",
+        "rsd": "14.121818"
+      },
+      "domComplete": {
+        "median": "1070",
+        "stddev": "76.000000",
+        "rsd": "6.994131"
+      },
+      "loadEventEnd": {
+        "median": "1071",
+        "stddev": "76.000000",
+        "rsd": "7.001857"
+      },
+      "SpeedIndex": {
+        "median": "400",
+        "stddev": "35.000000",
+        "rsd": "8.639177"
+      },
+      "VisualComplete85": {
+        "median": "633",
+        "stddev": "69.000000",
+        "rsd": "11.327917"
+      },
+      "LastVisualChange": {
+        "median": "1334",
+        "stddev": "48.000000",
+        "rsd": "3.593865"
+      },
+      "lcp_element": "\"\"<p></p>\"\"",
+      "PerceptualSpeedIndexProgress": [
+        {
+          "timestamp": "0.000000",
+          "percent": "0"
+        },
+        {
+          "timestamp": "267.000000",
+          "percent": "74"
+        },
+        {
+          "timestamp": "300.000000",
+          "percent": "75"
+        },
+        {
+          "timestamp": "367.000000",
+          "percent": "78"
+        },
+        {
+          "timestamp": "634.000000",
+          "percent": "90"
+        },
+        {
+          "timestamp": "1034.000000",
+          "percent": "100"
+        },
+        {
+          "timestamp": "1167.000000",
+          "percent": "100"
+        }
+      ],
+      "ContentfulSpeedIndexProgress": [
+        {
+          "timestamp": "0.000000",
+          "percent": "0"
+        },
+        {
+          "timestamp": "267.000000",
+          "percent": "80"
+        },
+        {
+          "timestamp": "300.000000",
+          "percent": "83"
+        },
+        {
+          "timestamp": "367.000000",
+          "percent": "89"
+        },
+        {
+          "timestamp": "634.000000",
+          "percent": "100"
+        },
+        {
+          "timestamp": "1034.000000",
+          "percent": "100"
+        },
+        {
+          "timestamp": "1167.000000",
+          "percent": "100"
+        }
+      ],
+      "SpeedIndexProgress": [
+        {
+          "timestamp": "0.000000",
+          "percent": "0"
+        },
+        {
+          "timestamp": "267.000000",
+          "percent": "78"
+        },
+        {
+          "timestamp": "300.000000",
+          "percent": "77"
+        },
+        {
+          "timestamp": "367.000000",
+          "percent": "77"
+        },
+        {
+          "timestamp": "634.000000",
+          "percent": "88"
+        },
+        {
+          "timestamp": "1034.000000",
+          "percent": "99"
+        },
+        {
+          "timestamp": "1167.000000",
+          "percent": "100"
+        }
+      ]
+    }
+  }
+}

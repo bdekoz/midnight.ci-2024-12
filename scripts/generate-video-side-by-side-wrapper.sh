@@ -77,4 +77,4 @@ generate_platform_by_sitelist() {
 
 }
 
-generate_platform_by_sitelist "win11" "../sitelist.txt" "2024-12-11"
+generate_platform_by_sitelist "linux" "../sitelist.txt" "2024-12-11"

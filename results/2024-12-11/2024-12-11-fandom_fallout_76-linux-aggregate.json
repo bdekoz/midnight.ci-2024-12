@@ -1,0 +1,426 @@
+{
+  "test": "fandom_fallout_76",
+  "platform": "linux",
+  "date": "2024-12-11",
+  "video_side_by_side": "2024-12-11-linux-fandom_fallout_76-side-by-side.mp4",
+  "firefox": {
+    "filmstrip_interval": 100,
+    "filmstrip": {
+      "00000": "2024-12-11-linux-fandom_fallout_76-firefox_00000.png",
+      "00100": "2024-12-11-linux-fandom_fallout_76-firefox_00100.png",
+      "00200": "2024-12-11-linux-fandom_fallout_76-firefox_00200.png",
+      "00300": "2024-12-11-linux-fandom_fallout_76-firefox_00300.png",
+      "00400": "2024-12-11-linux-fandom_fallout_76-firefox_00400.png",
+      "00500": "2024-12-11-linux-fandom_fallout_76-firefox_00500.png",
+      "00600": "2024-12-11-linux-fandom_fallout_76-firefox_00600.png",
+      "00700": "2024-12-11-linux-fandom_fallout_76-firefox_00700.png"
+    },
+    "metrics": {
+      "fcp": {
+        "median": "399",
+        "stddev": "53.000000",
+        "rsd": "12.837556"
+      },
+      "largestContentfulPaintloadTime": {
+        "median": "406",
+        "stddev": "52.000000",
+        "rsd": "12.655433"
+      },
+      "largestContentfulPaintrenderTime": {
+        "median": "415",
+        "stddev": "52.000000",
+        "rsd": "12.352018"
+      },
+      "redirectStart": {
+        "median": "0",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "redirectEnd": {
+        "median": "0",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "fetchStart": {
+        "median": "0",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "domainLookupStart": {
+        "median": "3",
+        "stddev": "1.000000",
+        "rsd": "17.170456"
+      },
+      "connectStart": {
+        "median": "3",
+        "stddev": "1.000000",
+        "rsd": "15.810183"
+      },
+      "requestStart": {
+        "median": "8",
+        "stddev": "2.000000",
+        "rsd": "21.555981"
+      },
+      "responseStart": {
+        "median": "10",
+        "stddev": "2.000000",
+        "rsd": "21.596118"
+      },
+      "domInteractive": {
+        "median": "324",
+        "stddev": "46.000000",
+        "rsd": "13.773300"
+      },
+      "domComplete": {
+        "median": "1200",
+        "stddev": "101.000000",
+        "rsd": "8.202044"
+      },
+      "loadEventEnd": {
+        "median": "1218",
+        "stddev": "101.000000",
+        "rsd": "8.064564"
+      },
+      "SpeedIndex": {
+        "median": "633",
+        "stddev": "67.000000",
+        "rsd": "10.576360"
+      },
+      "VisualComplete85": {
+        "median": "640",
+        "stddev": "85.000000",
+        "rsd": "12.706322"
+      },
+      "LastVisualChange": {
+        "median": "840",
+        "stddev": "84.000000",
+        "rsd": "9.738482"
+      },
+      "lcp_element": "\"\"data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20fill%3D%22transparent%22%20viewBox%3D%220%200%2014.3%20281%22%3E%3Ccircle%20cx%3D%223.3%22%20cy%3D%22133.2%22%20r%3D%221.7%22%2F%3E%3Ccircle%20cx%3D%223.3%22%20cy%3D%22147.1%22%20r%3D%221.7%22%2F%3E%3Ccircle%20cx%3D%223.3%22%20cy%3D%22161.4%22%20r%3D%221.6%22%2F%3E%3Ccircle%20cx%3D%223.3%22%20cy%3D%22175.8%22%20r%3D%221.4%22%2F%3E%3Ccircle%20cx%3D%223.3%22%20cy%3D%22190.2%22%20r%3D%221.3%22%2F%3E%3Ccircle%20cx%3D%223.3%22%20cy%3D%22204.7%22%20r%3D%221.1%22%2F%3E%3Ccircle%20cx%3D%223.3%22%20cy%3D%22219%22%20r%3D%221%22%2F%3E%3Ccircle%20cx%3D%223.3%22%20cy%3D%22233.5%22%20r%3D%22.8%22%2F%3E%3Ccircle%20cx%3D%223.3%22%20cy%3D%22247.9%22%20r%3D%22.7%22%2F%3E%3Ccircle%20cx%3D%223.3%22%20cy%3D%22262.3%22%20r%3D%22.7%22%2F%3E%3Ccircle%20cx%3D%223.3%22%20cy%3D%22276.6%22%20r%3D%22.6%22%2F%3E%3Cg%3E%3Ccircle%20cx%3D%223.3%22%20cy%3D%22118.9%22%20r%3D%221.6%22%2F%3E%3Ccircle%20cx%3D%223.3%22%20cy%3D%22104.5%22%20r%3D%221.4%22%2F%3E%3Ccircle%20cx%3D%223.3%22%20cy%3D%2290.1%22%20r%3D%221.3%22%2F%3E%3Ccircle%20cx%3D%223.3%22%20cy%3D%2275.7%22%20r%3D%221.1%22%2F%3E%3Ccircle%20cx%3D%223.3%22%20cy%3D%2261.3%22%20r%3D%221%22%2F%3E%3Ccircle%20cx%3D%223.3%22%20cy%3D%2246.9%22%20r%3D%22.8%22%2F%3E%3Ccircle%20cx%3D%223.3%22%20cy%3D%2232.5%22%20r%3D%22.7%22%2F%3E%3Ccircle%20cx%3D%223.3%22%20cy%3D%2218%22%20r%3D%22.7%22%2F%3E%3Ccircle%20cx%3D%223.3%22%20cy%3D%223.7%22%20r%3D%22.6%22%2F%3E%3C%2Fg%3E%3Cg%3E%3Ccircle%20cx%3D%2210.7%22%20cy%3D%22125.8%22%20r%3D%221.6%22%2F%3E%3Ccircle%20cx%3D%2210.7%22%20cy%3D%22111.5%22%20r%3D%221.4%22%2F%3E%3Ccircle%20cx%3D%2210.7%22%20cy%3D%2297%22%20r%3D%221.3%22%2F%3E%3Ccircle%20cx%3D%2210.7%22%20cy%3D%2282.6%22%20r%3D%221.1%22%2F%3E%3Ccircle%20cx%3D%2210.7%22%20cy%3D%2268.2%22%20r%3D%221%22%2F%3E%3Ccircle%20cx%3D%2210.7%22%20cy%3D%2253.8%22%20r%3D%22.8%22%2F%3E%3Ccircle%20cx%3D%2210.7%22%20cy%3D%2239.4%22%20r%3D%22.7%22%2F%3E%3Ccircle%20cx%3D%2210.7%22%20cy%3D%2224.9%22%20r%3D%22.7%22%2F%3E%3Ccircle%20cx%3D%2210.7%22%20cy%3D%2210.6%22%20r%3D%22.6%22%2F%3E%3C%2Fg%3E%3Cg%3E%3Ccircle%20cx%3D%2210.7%22%20cy%3D%22154.2%22%20r%3D%221.6%22%2F%3E%3Ccircle%20cx%3D%2210.7%22%20cy%3D%22140.1%22%20r%3D%221.6%22%2F%3E%3Ccircle%20cx%3D%2210.7%22%20cy%3D%22168.5%22%20r%3D%221.4%22%2F%3E%3Ccircle%20cx%3D%2210.7%22%20cy%3D%22183%22%20r%3D%221.3%22%2F%3E%3Ccircle%20cx%3D%2210.7%22%20cy%3D%22197.4%22%20r%3D%221.1%22%2F%3E%3Ccircle%20cx%3D%2210.7%22%20cy%3D%22211.8%22%20r%3D%221%22%2F%3E%3Ccircle%20cx%3D%2210.7%22%20cy%3D%22226.2%22%20r%3D%22.8%22%2F%3E%3Ccircle%20cx%3D%2210.7%22%20cy%3D%22240.6%22%20r%3D%22.7%22%2F%3E%3Ccircle%20cx%3D%2210.7%22%20cy%3D%22255.1%22%20r%3D%22.7%22%2F%3E%3Ccircle%20cx%3D%2210.7%22%20cy%3D%22269.4%22%20r%3D%22.6%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E\"\"",
+      "PerceptualSpeedIndexProgress": [
+        {
+          "timestamp": "0.000000",
+          "percent": "0"
+        },
+        {
+          "timestamp": "400.000000",
+          "percent": "71"
+        },
+        {
+          "timestamp": "440.000000",
+          "percent": "75"
+        },
+        {
+          "timestamp": "560.000000",
+          "percent": "87"
+        },
+        {
+          "timestamp": "600.000000",
+          "percent": "91"
+        },
+        {
+          "timestamp": "640.000000",
+          "percent": "94"
+        },
+        {
+          "timestamp": "680.000000",
+          "percent": "97"
+        },
+        {
+          "timestamp": "760.000000",
+          "percent": "100"
+        },
+        {
+          "timestamp": "840.000000",
+          "percent": "100"
+        }
+      ],
+      "ContentfulSpeedIndexProgress": [
+        {
+          "timestamp": "0.000000",
+          "percent": "0"
+        },
+        {
+          "timestamp": "400.000000",
+          "percent": "65"
+        },
+        {
+          "timestamp": "440.000000",
+          "percent": "69"
+        },
+        {
+          "timestamp": "560.000000",
+          "percent": "84"
+        },
+        {
+          "timestamp": "600.000000",
+          "percent": "89"
+        },
+        {
+          "timestamp": "640.000000",
+          "percent": "95"
+        },
+        {
+          "timestamp": "680.000000",
+          "percent": "99"
+        },
+        {
+          "timestamp": "760.000000",
+          "percent": "100"
+        },
+        {
+          "timestamp": "840.000000",
+          "percent": "100"
+        }
+      ],
+      "SpeedIndexProgress": [
+        {
+          "timestamp": "0.000000",
+          "percent": "0"
+        },
+        {
+          "timestamp": "400.000000",
+          "percent": "14"
+        },
+        {
+          "timestamp": "440.000000",
+          "percent": "14"
+        },
+        {
+          "timestamp": "560.000000",
+          "percent": "14"
+        },
+        {
+          "timestamp": "600.000000",
+          "percent": "39"
+        },
+        {
+          "timestamp": "640.000000",
+          "percent": "37"
+        },
+        {
+          "timestamp": "680.000000",
+          "percent": "86"
+        },
+        {
+          "timestamp": "760.000000",
+          "percent": "99"
+        },
+        {
+          "timestamp": "840.000000",
+          "percent": "100"
+        }
+      ]
+    }
+  },
+  "chrome": {
+    "filmstrip_interval": 100,
+    "filmstrip": {
+      "00000": "2024-12-11-linux-fandom_fallout_76-chrome_00000.png",
+      "00100": "2024-12-11-linux-fandom_fallout_76-chrome_00100.png",
+      "00200": "2024-12-11-linux-fandom_fallout_76-chrome_00200.png",
+      "00300": "2024-12-11-linux-fandom_fallout_76-chrome_00300.png",
+      "00400": "2024-12-11-linux-fandom_fallout_76-chrome_00400.png",
+      "00500": "2024-12-11-linux-fandom_fallout_76-chrome_00500.png",
+      "00600": "2024-12-11-linux-fandom_fallout_76-chrome_00600.png",
+      "00700": "2024-12-11-linux-fandom_fallout_76-chrome_00700.png"
+    },
+    "metrics": {
+      "fcp": {
+        "median": "399",
+        "stddev": "35.000000",
+        "rsd": "8.530930"
+      },
+      "largestContentfulPaintloadTime": {
+        "median": "259",
+        "stddev": "30.000000",
+        "rsd": "11.367529"
+      },
+      "largestContentfulPaintrenderTime": {
+        "median": "399",
+        "stddev": "35.000000",
+        "rsd": "8.530930"
+      },
+      "redirectStart": {
+        "median": "0",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "redirectEnd": {
+        "median": "0",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "fetchStart": {
+        "median": "1",
+        "stddev": "0.000000",
+        "rsd": "18.842229"
+      },
+      "domainLookupStart": {
+        "median": "1",
+        "stddev": "0.000000",
+        "rsd": "18.842229"
+      },
+      "connectStart": {
+        "median": "2",
+        "stddev": "0.000000",
+        "rsd": "19.066211"
+      },
+      "requestStart": {
+        "median": "50",
+        "stddev": "9.000000",
+        "rsd": "16.961088"
+      },
+      "responseStart": {
+        "median": "66",
+        "stddev": "10.000000",
+        "rsd": "14.866450"
+      },
+      "domInteractive": {
+        "median": "340",
+        "stddev": "32.000000",
+        "rsd": "9.213224"
+      },
+      "domComplete": {
+        "median": "966",
+        "stddev": "93.000000",
+        "rsd": "9.414817"
+      },
+      "loadEventEnd": {
+        "median": "969",
+        "stddev": "93.000000",
+        "rsd": "9.428439"
+      },
+      "SpeedIndex": {
+        "median": "539",
+        "stddev": "35.000000",
+        "rsd": "6.393344"
+      },
+      "VisualComplete85": {
+        "median": "600",
+        "stddev": "41.000000",
+        "rsd": "6.718042"
+      },
+      "LastVisualChange": {
+        "median": "800",
+        "stddev": "79.000000",
+        "rsd": "9.696988"
+      },
+      "lcp_element": "\"\"https://vignette.wikia.nocookie.net/d6cbe8dd-f9b9-4148-9d02-b1fff09bd134/scale-to-width-down/800\"\"",
+      "PerceptualSpeedIndexProgress": [
+        {
+          "timestamp": "0.000000",
+          "percent": "0"
+        },
+        {
+          "timestamp": "400.000000",
+          "percent": "82"
+        },
+        {
+          "timestamp": "434.000000",
+          "percent": "85"
+        },
+        {
+          "timestamp": "467.000000",
+          "percent": "88"
+        },
+        {
+          "timestamp": "534.000000",
+          "percent": "94"
+        },
+        {
+          "timestamp": "567.000000",
+          "percent": "96"
+        },
+        {
+          "timestamp": "600.000000",
+          "percent": "99"
+        },
+        {
+          "timestamp": "634.000000",
+          "percent": "99"
+        },
+        {
+          "timestamp": "834.000000",
+          "percent": "100"
+        }
+      ],
+      "ContentfulSpeedIndexProgress": [
+        {
+          "timestamp": "0.000000",
+          "percent": "0"
+        },
+        {
+          "timestamp": "400.000000",
+          "percent": "80"
+        },
+        {
+          "timestamp": "434.000000",
+          "percent": "84"
+        },
+        {
+          "timestamp": "467.000000",
+          "percent": "89"
+        },
+        {
+          "timestamp": "534.000000",
+          "percent": "96"
+        },
+        {
+          "timestamp": "567.000000",
+          "percent": "99"
+        },
+        {
+          "timestamp": "600.000000",
+          "percent": "99"
+        },
+        {
+          "timestamp": "634.000000",
+          "percent": "100"
+        },
+        {
+          "timestamp": "834.000000",
+          "percent": "100"
+        }
+      ],
+      "SpeedIndexProgress": [
+        {
+          "timestamp": "0.000000",
+          "percent": "0"
+        },
+        {
+          "timestamp": "400.000000",
+          "percent": "31"
+        },
+        {
+          "timestamp": "434.000000",
+          "percent": "31"
+        },
+        {
+          "timestamp": "467.000000",
+          "percent": "31"
+        },
+        {
+          "timestamp": "534.000000",
+          "percent": "33"
+        },
+        {
+          "timestamp": "567.000000",
+          "percent": "33"
+        },
+        {
+          "timestamp": "600.000000",
+          "percent": "99"
+        },
+        {
+          "timestamp": "634.000000",
+          "percent": "99"
+        },
+        {
+          "timestamp": "834.000000",
+          "percent": "100"
+        }
+      ]
+    }
+  }
+}

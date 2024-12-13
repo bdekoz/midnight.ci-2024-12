@@ -1,0 +1,348 @@
+{
+  "test": "mail_yahoo",
+  "platform": "linux",
+  "date": "2024-12-11",
+  "video_side_by_side": "2024-12-11-linux-mail_yahoo-side-by-side.mp4",
+  "firefox": {
+    "filmstrip_interval": 100,
+    "filmstrip": {
+      "00000": "2024-12-11-linux-mail_yahoo-firefox_00000.png",
+      "00100": "2024-12-11-linux-mail_yahoo-firefox_00100.png",
+      "00200": "2024-12-11-linux-mail_yahoo-firefox_00200.png",
+      "00300": "2024-12-11-linux-mail_yahoo-firefox_00300.png",
+      "00400": "2024-12-11-linux-mail_yahoo-firefox_00400.png",
+      "00500": "2024-12-11-linux-mail_yahoo-firefox_00500.png",
+      "00600": "2024-12-11-linux-mail_yahoo-firefox_00600.png",
+      "00700": "2024-12-11-linux-mail_yahoo-firefox_00700.png",
+      "00800": "2024-12-11-linux-mail_yahoo-firefox_00800.png",
+      "00900": "2024-12-11-linux-mail_yahoo-firefox_00900.png"
+    },
+    "metrics": {
+      "fcp": {
+        "median": "215",
+        "stddev": "28.000000",
+        "rsd": "12.616233"
+      },
+      "largestContentfulPaintloadTime": {
+        "median": "400",
+        "stddev": "36.000000",
+        "rsd": "8.755562"
+      },
+      "largestContentfulPaintrenderTime": {
+        "median": "400",
+        "stddev": "36.000000",
+        "rsd": "8.755562"
+      },
+      "redirectStart": {
+        "median": "0",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "redirectEnd": {
+        "median": "0",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "fetchStart": {
+        "median": "0",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "domainLookupStart": {
+        "median": "3",
+        "stddev": "1.000000",
+        "rsd": "23.133756"
+      },
+      "connectStart": {
+        "median": "3",
+        "stddev": "1.000000",
+        "rsd": "22.018866"
+      },
+      "requestStart": {
+        "median": "8",
+        "stddev": "2.000000",
+        "rsd": "24.990371"
+      },
+      "responseStart": {
+        "median": "10",
+        "stddev": "3.000000",
+        "rsd": "23.727670"
+      },
+      "domInteractive": {
+        "median": "347",
+        "stddev": "59.000000",
+        "rsd": "17.791218"
+      },
+      "domComplete": {
+        "median": "746",
+        "stddev": "30.000000",
+        "rsd": "4.065894"
+      },
+      "loadEventEnd": {
+        "median": "746",
+        "stddev": "30.000000",
+        "rsd": "4.061781"
+      },
+      "SpeedIndex": {
+        "median": "302",
+        "stddev": "32.000000",
+        "rsd": "10.100074"
+      },
+      "VisualComplete85": {
+        "median": "240",
+        "stddev": "34.000000",
+        "rsd": "13.234333"
+      },
+      "LastVisualChange": {
+        "median": "1040",
+        "stddev": "37.000000",
+        "rsd": "3.516290"
+      },
+      "lcp_element": "\"\"https://s.yimg.com/nq/nr/img/yahoo_mail_global_english_white_1x.png\"\"",
+      "PerceptualSpeedIndexProgress": [
+        {
+          "timestamp": "0.000000",
+          "percent": "0"
+        },
+        {
+          "timestamp": "240.000000",
+          "percent": "58"
+        },
+        {
+          "timestamp": "400.000000",
+          "percent": "67"
+        },
+        {
+          "timestamp": "440.000000",
+          "percent": "69"
+        },
+        {
+          "timestamp": "480.000000",
+          "percent": "71"
+        },
+        {
+          "timestamp": "1040.000000",
+          "percent": "100"
+        }
+      ],
+      "ContentfulSpeedIndexProgress": [
+        {
+          "timestamp": "0.000000",
+          "percent": "0"
+        },
+        {
+          "timestamp": "240.000000",
+          "percent": "94"
+        },
+        {
+          "timestamp": "400.000000",
+          "percent": "98"
+        },
+        {
+          "timestamp": "440.000000",
+          "percent": "99"
+        },
+        {
+          "timestamp": "480.000000",
+          "percent": "100"
+        },
+        {
+          "timestamp": "1040.000000",
+          "percent": "100"
+        }
+      ],
+      "SpeedIndexProgress": [
+        {
+          "timestamp": "0.000000",
+          "percent": "0"
+        },
+        {
+          "timestamp": "240.000000",
+          "percent": "90"
+        },
+        {
+          "timestamp": "400.000000",
+          "percent": "89"
+        },
+        {
+          "timestamp": "440.000000",
+          "percent": "93"
+        },
+        {
+          "timestamp": "480.000000",
+          "percent": "93"
+        },
+        {
+          "timestamp": "1040.000000",
+          "percent": "100"
+        }
+      ]
+    }
+  },
+  "chrome": {
+    "filmstrip_interval": 100,
+    "filmstrip": {
+      "00000": "2024-12-11-linux-mail_yahoo-chrome_00000.png",
+      "00100": "2024-12-11-linux-mail_yahoo-chrome_00100.png",
+      "00200": "2024-12-11-linux-mail_yahoo-chrome_00200.png",
+      "00300": "2024-12-11-linux-mail_yahoo-chrome_00300.png",
+      "00400": "2024-12-11-linux-mail_yahoo-chrome_00400.png",
+      "00500": "2024-12-11-linux-mail_yahoo-chrome_00500.png",
+      "00600": "2024-12-11-linux-mail_yahoo-chrome_00600.png",
+      "00700": "2024-12-11-linux-mail_yahoo-chrome_00700.png",
+      "00800": "2024-12-11-linux-mail_yahoo-chrome_00800.png",
+      "00900": "2024-12-11-linux-mail_yahoo-chrome_00900.png",
+      "01000": "2024-12-11-linux-mail_yahoo-chrome_01000.png",
+      "01100": "2024-12-11-linux-mail_yahoo-chrome_01100.png"
+    },
+    "metrics": {
+      "fcp": {
+        "median": "298",
+        "stddev": "19.000000",
+        "rsd": "6.391900"
+      },
+      "largestContentfulPaintloadTime": {
+        "median": "0",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "largestContentfulPaintrenderTime": {
+        "median": "1199",
+        "stddev": "44.000000",
+        "rsd": "3.682104"
+      },
+      "redirectStart": {
+        "median": "0",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "redirectEnd": {
+        "median": "0",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "fetchStart": {
+        "median": "1",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "domainLookupStart": {
+        "median": "1",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "connectStart": {
+        "median": "2",
+        "stddev": "0.000000",
+        "rsd": "20.338983"
+      },
+      "requestStart": {
+        "median": "46",
+        "stddev": "11.000000",
+        "rsd": "23.694087"
+      },
+      "responseStart": {
+        "median": "69",
+        "stddev": "12.000000",
+        "rsd": "16.586457"
+      },
+      "domInteractive": {
+        "median": "349",
+        "stddev": "32.000000",
+        "rsd": "9.402863"
+      },
+      "domComplete": {
+        "median": "876",
+        "stddev": "46.000000",
+        "rsd": "5.159679"
+      },
+      "loadEventEnd": {
+        "median": "876",
+        "stddev": "46.000000",
+        "rsd": "5.161159"
+      },
+      "SpeedIndex": {
+        "median": "362",
+        "stddev": "18.000000",
+        "rsd": "4.813244"
+      },
+      "VisualComplete85": {
+        "median": "300",
+        "stddev": "17.000000",
+        "rsd": "5.646753"
+      },
+      "LastVisualChange": {
+        "median": "1200",
+        "stddev": "43.000000",
+        "rsd": "3.541836"
+      },
+      "lcp_element": "\"\"<span data-test-id='message-subject' class='en_N u_Z13VSE6 o_h G_e J_x' role='gridcell' title='\ud83d\udcf1Hold the phone: Unlimited everything now just $39.99/mo.'></span>\"\"",
+      "PerceptualSpeedIndexProgress": [
+        {
+          "timestamp": "0.000000",
+          "percent": "0"
+        },
+        {
+          "timestamp": "300.000000",
+          "percent": "63"
+        },
+        {
+          "timestamp": "333.000000",
+          "percent": "64"
+        },
+        {
+          "timestamp": "366.000000",
+          "percent": "66"
+        },
+        {
+          "timestamp": "1200.000000",
+          "percent": "100"
+        }
+      ],
+      "ContentfulSpeedIndexProgress": [
+        {
+          "timestamp": "0.000000",
+          "percent": "0"
+        },
+        {
+          "timestamp": "300.000000",
+          "percent": "97"
+        },
+        {
+          "timestamp": "333.000000",
+          "percent": "98"
+        },
+        {
+          "timestamp": "366.000000",
+          "percent": "100"
+        },
+        {
+          "timestamp": "1200.000000",
+          "percent": "100"
+        }
+      ],
+      "SpeedIndexProgress": [
+        {
+          "timestamp": "0.000000",
+          "percent": "0"
+        },
+        {
+          "timestamp": "300.000000",
+          "percent": "93"
+        },
+        {
+          "timestamp": "333.000000",
+          "percent": "93"
+        },
+        {
+          "timestamp": "366.000000",
+          "percent": "93"
+        },
+        {
+          "timestamp": "1200.000000",
+          "percent": "100"
+        }
+      ]
+    }
+  }
+}
