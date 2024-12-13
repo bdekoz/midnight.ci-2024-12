@@ -1,0 +1,393 @@
+{
+  "test": "fandom_fallout_76",
+  "platform": "win11",
+  "date": "2024-12-11",
+  "video_side_by_side": "2024-12-11-win11-fandom_fallout_76-side-by-side.mp4",
+  "firefox": {
+    "filmstrip_interval": 100,
+    "filmstrip": {
+      "00000": "2024-12-11-win11-fandom_fallout_76-firefox_00000.png",
+      "00100": "2024-12-11-win11-fandom_fallout_76-firefox_00100.png",
+      "00200": "2024-12-11-win11-fandom_fallout_76-firefox_00200.png",
+      "00300": "2024-12-11-win11-fandom_fallout_76-firefox_00300.png"
+    },
+    "metrics": {
+      "fcp": {
+        "median": "150",
+        "stddev": "11.000000",
+        "rsd": "7.462571"
+      },
+      "largestContentfulPaintloadTime": {
+        "median": "143",
+        "stddev": "11.000000",
+        "rsd": "7.399068"
+      },
+      "largestContentfulPaintrenderTime": {
+        "median": "151",
+        "stddev": "11.000000",
+        "rsd": "7.253302"
+      },
+      "redirectStart": {
+        "median": "0",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "redirectEnd": {
+        "median": "0",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "fetchStart": {
+        "median": "0",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "domainLookupStart": {
+        "median": "1",
+        "stddev": "0.000000",
+        "rsd": "35.339102"
+      },
+      "connectStart": {
+        "median": "2",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "requestStart": {
+        "median": "5",
+        "stddev": "1.000000",
+        "rsd": "12.795842"
+      },
+      "responseStart": {
+        "median": "6",
+        "stddev": "1.000000",
+        "rsd": "13.800272"
+      },
+      "domInteractive": {
+        "median": "119",
+        "stddev": "11.000000",
+        "rsd": "9.054889"
+      },
+      "domComplete": {
+        "median": "414",
+        "stddev": "36.000000",
+        "rsd": "8.665149"
+      },
+      "loadEventEnd": {
+        "median": "416",
+        "stddev": "38.000000",
+        "rsd": "8.921249"
+      },
+      "SpeedIndex": {
+        "median": "272",
+        "stddev": "38.000000",
+        "rsd": "14.143604"
+      },
+      "VisualComplete85": {
+        "median": "267",
+        "stddev": "56.000000",
+        "rsd": "19.772020"
+      },
+      "LastVisualChange": {
+        "median": "400",
+        "stddev": "45.000000",
+        "rsd": "10.951367"
+      },
+      "lcp_element": "\"\"data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20fill%3D%22transparent%22%20viewBox%3D%220%200%2014.3%20281%22%3E%3Ccircle%20cx%3D%223.3%22%20cy%3D%22133.2%22%20r%3D%221.7%22%2F%3E%3Ccircle%20cx%3D%223.3%22%20cy%3D%22147.1%22%20r%3D%221.7%22%2F%3E%3Ccircle%20cx%3D%223.3%22%20cy%3D%22161.4%22%20r%3D%221.6%22%2F%3E%3Ccircle%20cx%3D%223.3%22%20cy%3D%22175.8%22%20r%3D%221.4%22%2F%3E%3Ccircle%20cx%3D%223.3%22%20cy%3D%22190.2%22%20r%3D%221.3%22%2F%3E%3Ccircle%20cx%3D%223.3%22%20cy%3D%22204.7%22%20r%3D%221.1%22%2F%3E%3Ccircle%20cx%3D%223.3%22%20cy%3D%22219%22%20r%3D%221%22%2F%3E%3Ccircle%20cx%3D%223.3%22%20cy%3D%22233.5%22%20r%3D%22.8%22%2F%3E%3Ccircle%20cx%3D%223.3%22%20cy%3D%22247.9%22%20r%3D%22.7%22%2F%3E%3Ccircle%20cx%3D%223.3%22%20cy%3D%22262.3%22%20r%3D%22.7%22%2F%3E%3Ccircle%20cx%3D%223.3%22%20cy%3D%22276.6%22%20r%3D%22.6%22%2F%3E%3Cg%3E%3Ccircle%20cx%3D%223.3%22%20cy%3D%22118.9%22%20r%3D%221.6%22%2F%3E%3Ccircle%20cx%3D%223.3%22%20cy%3D%22104.5%22%20r%3D%221.4%22%2F%3E%3Ccircle%20cx%3D%223.3%22%20cy%3D%2290.1%22%20r%3D%221.3%22%2F%3E%3Ccircle%20cx%3D%223.3%22%20cy%3D%2275.7%22%20r%3D%221.1%22%2F%3E%3Ccircle%20cx%3D%223.3%22%20cy%3D%2261.3%22%20r%3D%221%22%2F%3E%3Ccircle%20cx%3D%223.3%22%20cy%3D%2246.9%22%20r%3D%22.8%22%2F%3E%3Ccircle%20cx%3D%223.3%22%20cy%3D%2232.5%22%20r%3D%22.7%22%2F%3E%3Ccircle%20cx%3D%223.3%22%20cy%3D%2218%22%20r%3D%22.7%22%2F%3E%3Ccircle%20cx%3D%223.3%22%20cy%3D%223.7%22%20r%3D%22.6%22%2F%3E%3C%2Fg%3E%3Cg%3E%3Ccircle%20cx%3D%2210.7%22%20cy%3D%22125.8%22%20r%3D%221.6%22%2F%3E%3Ccircle%20cx%3D%2210.7%22%20cy%3D%22111.5%22%20r%3D%221.4%22%2F%3E%3Ccircle%20cx%3D%2210.7%22%20cy%3D%2297%22%20r%3D%221.3%22%2F%3E%3Ccircle%20cx%3D%2210.7%22%20cy%3D%2282.6%22%20r%3D%221.1%22%2F%3E%3Ccircle%20cx%3D%2210.7%22%20cy%3D%2268.2%22%20r%3D%221%22%2F%3E%3Ccircle%20cx%3D%2210.7%22%20cy%3D%2253.8%22%20r%3D%22.8%22%2F%3E%3Ccircle%20cx%3D%2210.7%22%20cy%3D%2239.4%22%20r%3D%22.7%22%2F%3E%3Ccircle%20cx%3D%2210.7%22%20cy%3D%2224.9%22%20r%3D%22.7%22%2F%3E%3Ccircle%20cx%3D%2210.7%22%20cy%3D%2210.6%22%20r%3D%22.6%22%2F%3E%3C%2Fg%3E%3Cg%3E%3Ccircle%20cx%3D%2210.7%22%20cy%3D%22154.2%22%20r%3D%221.6%22%2F%3E%3Ccircle%20cx%3D%2210.7%22%20cy%3D%22140.1%22%20r%3D%221.6%22%2F%3E%3Ccircle%20cx%3D%2210.7%22%20cy%3D%22168.5%22%20r%3D%221.4%22%2F%3E%3Ccircle%20cx%3D%2210.7%22%20cy%3D%22183%22%20r%3D%221.3%22%2F%3E%3Ccircle%20cx%3D%2210.7%22%20cy%3D%22197.4%22%20r%3D%221.1%22%2F%3E%3Ccircle%20cx%3D%2210.7%22%20cy%3D%22211.8%22%20r%3D%221%22%2F%3E%3Ccircle%20cx%3D%2210.7%22%20cy%3D%22226.2%22%20r%3D%22.8%22%2F%3E%3Ccircle%20cx%3D%2210.7%22%20cy%3D%22240.6%22%20r%3D%22.7%22%2F%3E%3Ccircle%20cx%3D%2210.7%22%20cy%3D%22255.1%22%20r%3D%22.7%22%2F%3E%3Ccircle%20cx%3D%2210.7%22%20cy%3D%22269.4%22%20r%3D%22.6%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E\"\"",
+      "PerceptualSpeedIndexProgress": [
+        {
+          "timestamp": "0.000000",
+          "percent": "0"
+        },
+        {
+          "timestamp": "200.000000",
+          "percent": "80"
+        },
+        {
+          "timestamp": "233.000000",
+          "percent": "86"
+        },
+        {
+          "timestamp": "266.000000",
+          "percent": "91"
+        },
+        {
+          "timestamp": "300.000000",
+          "percent": "94"
+        },
+        {
+          "timestamp": "333.000000",
+          "percent": "96"
+        },
+        {
+          "timestamp": "366.000000",
+          "percent": "99"
+        },
+        {
+          "timestamp": "400.000000",
+          "percent": "99"
+        },
+        {
+          "timestamp": "433.000000",
+          "percent": "99"
+        },
+        {
+          "timestamp": "466.000000",
+          "percent": "100"
+        }
+      ],
+      "ContentfulSpeedIndexProgress": [
+        {
+          "timestamp": "0.000000",
+          "percent": "0"
+        },
+        {
+          "timestamp": "200.000000",
+          "percent": "66"
+        },
+        {
+          "timestamp": "233.000000",
+          "percent": "75"
+        },
+        {
+          "timestamp": "266.000000",
+          "percent": "83"
+        },
+        {
+          "timestamp": "300.000000",
+          "percent": "91"
+        },
+        {
+          "timestamp": "333.000000",
+          "percent": "99"
+        },
+        {
+          "timestamp": "366.000000",
+          "percent": "99"
+        },
+        {
+          "timestamp": "400.000000",
+          "percent": "100"
+        },
+        {
+          "timestamp": "433.000000",
+          "percent": "100"
+        },
+        {
+          "timestamp": "466.000000",
+          "percent": "100"
+        }
+      ],
+      "SpeedIndexProgress": [
+        {
+          "timestamp": "0.000000",
+          "percent": "0"
+        },
+        {
+          "timestamp": "200.000000",
+          "percent": "17"
+        },
+        {
+          "timestamp": "233.000000",
+          "percent": "15"
+        },
+        {
+          "timestamp": "266.000000",
+          "percent": "84"
+        },
+        {
+          "timestamp": "300.000000",
+          "percent": "85"
+        },
+        {
+          "timestamp": "333.000000",
+          "percent": "85"
+        },
+        {
+          "timestamp": "366.000000",
+          "percent": "98"
+        },
+        {
+          "timestamp": "400.000000",
+          "percent": "98"
+        },
+        {
+          "timestamp": "433.000000",
+          "percent": "98"
+        },
+        {
+          "timestamp": "466.000000",
+          "percent": "100"
+        }
+      ]
+    }
+  },
+  "chrome": {
+    "filmstrip_interval": 100,
+    "filmstrip": {
+      "00000": "2024-12-11-win11-fandom_fallout_76-chrome_00000.png",
+      "00100": "2024-12-11-win11-fandom_fallout_76-chrome_00100.png",
+      "00200": "2024-12-11-win11-fandom_fallout_76-chrome_00200.png"
+    },
+    "metrics": {
+      "fcp": {
+        "median": "201",
+        "stddev": "36.000000",
+        "rsd": "16.995511"
+      },
+      "largestContentfulPaintloadTime": {
+        "median": "79",
+        "stddev": "10.000000",
+        "rsd": "12.225753"
+      },
+      "largestContentfulPaintrenderTime": {
+        "median": "201",
+        "stddev": "36.000000",
+        "rsd": "16.995511"
+      },
+      "redirectStart": {
+        "median": "0",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "redirectEnd": {
+        "median": "0",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "fetchStart": {
+        "median": "0",
+        "stddev": "0.000000",
+        "rsd": "177.951304"
+      },
+      "domainLookupStart": {
+        "median": "0",
+        "stddev": "0.000000",
+        "rsd": "177.951304"
+      },
+      "connectStart": {
+        "median": "1",
+        "stddev": "0.000000",
+        "rsd": "29.014423"
+      },
+      "requestStart": {
+        "median": "7",
+        "stddev": "2.000000",
+        "rsd": "27.807341"
+      },
+      "responseStart": {
+        "median": "13",
+        "stddev": "7.000000",
+        "rsd": "50.818203"
+      },
+      "domInteractive": {
+        "median": "121",
+        "stddev": "11.000000",
+        "rsd": "8.677687"
+      },
+      "domComplete": {
+        "median": "397",
+        "stddev": "23.000000",
+        "rsd": "5.642907"
+      },
+      "loadEventEnd": {
+        "median": "399",
+        "stddev": "23.000000",
+        "rsd": "5.730813"
+      },
+      "SpeedIndex": {
+        "median": "313",
+        "stddev": "39.000000",
+        "rsd": "12.226382"
+      },
+      "VisualComplete85": {
+        "median": "366",
+        "stddev": "41.000000",
+        "rsd": "11.118094"
+      },
+      "LastVisualChange": {
+        "median": "366",
+        "stddev": "40.000000",
+        "rsd": "10.534626"
+      },
+      "lcp_element": "\"\"https://vignette.wikia.nocookie.net/d6cbe8dd-f9b9-4148-9d02-b1fff09bd134/scale-to-width-down/800\"\"",
+      "PerceptualSpeedIndexProgress": [
+        {
+          "timestamp": "0.000000",
+          "percent": "0"
+        },
+        {
+          "timestamp": "200.000000",
+          "percent": "73"
+        },
+        {
+          "timestamp": "233.000000",
+          "percent": "78"
+        },
+        {
+          "timestamp": "300.000000",
+          "percent": "88"
+        },
+        {
+          "timestamp": "333.000000",
+          "percent": "94"
+        },
+        {
+          "timestamp": "366.000000",
+          "percent": "100"
+        }
+      ],
+      "ContentfulSpeedIndexProgress": [
+        {
+          "timestamp": "0.000000",
+          "percent": "0"
+        },
+        {
+          "timestamp": "200.000000",
+          "percent": "85"
+        },
+        {
+          "timestamp": "233.000000",
+          "percent": "94"
+        },
+        {
+          "timestamp": "300.000000",
+          "percent": "98"
+        },
+        {
+          "timestamp": "333.000000",
+          "percent": "100"
+        },
+        {
+          "timestamp": "366.000000",
+          "percent": "100"
+        }
+      ],
+      "SpeedIndexProgress": [
+        {
+          "timestamp": "0.000000",
+          "percent": "0"
+        },
+        {
+          "timestamp": "200.000000",
+          "percent": "29"
+        },
+        {
+          "timestamp": "233.000000",
+          "percent": "29"
+        },
+        {
+          "timestamp": "300.000000",
+          "percent": "36"
+        },
+        {
+          "timestamp": "333.000000",
+          "percent": "36"
+        },
+        {
+          "timestamp": "366.000000",
+          "percent": "100"
+        }
+      ]
+    }
+  }
+}

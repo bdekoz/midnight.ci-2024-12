@@ -1,13 +1,23 @@
 #!/usr/bin/env bash
 
 #ISODATE=`date --iso`
-ISODATE=2024-11-20
+ISODATE=2024-12-11
 
-ITERATIONFINDER=$MOZPERFAX/bin/moz-perf-x-extract.browsertime_iteration.exe
+XITERATION=$MOZPERFAX/bin/moz-perf-x-extract.browsertime_iteration.exe
+XURLMIN=$MOZPERFAX/bin/moz-perf-x-transform-url.exe
+
+SITELIST=sitelist.txt
+
+CHROMEDIR=chrome
+FIREFOXDIR=firefox
+mkdir $CHROMEDIR
+mkdir $FIREFOXDIR
 
 get_artifact_and_unpack() {
-    TPLATFORM="$1"
-    TASKID="$2"
+    PLATFORM="$1"
+    TESTNAME="$2"
+    BROWSER="$3"
+    TASKID="$4"
 
     # ARTIFACT=browsertime-results.tgz
     ARTIFACT=browsertime-videos-original
@@ -17,18 +27,23 @@ get_artifact_and_unpack() {
     wget "${ARTIFACT_URL}"
     tar xfz ${ARTIFACT}.tgz
 
-    # select data files and copy/rename.
-    ARTIFACT_BASE="$ISODATE-$TPLATFORM";
-
     # find browsertime result json file
     ARTIFACT1_NAME=cold-browsertime.json
-    ARTIFACT1_ONAME=${ARTIFACT_BASE}-${ARTIFACT1_NAME};
     ARTIFACT1=`find ./$ARTIFACT -type f -name $ARTIFACT1_NAME`
+
+    URL=`cat ${ARTIFACT1} | jq -r '.[0].info.url'`
+    echo "$URL" >> sitelist.txt
+    URLM=`${XURLMIN} "$URL"`
+
+    # select data files and copy/rename.
+    ARTIFACT_BASE="${BROWSER}/${URLM}"
+
+    ARTIFACT1_ONAME=${ARTIFACT_BASE}-${ARTIFACT1_NAME};
     cp ${ARTIFACT1} ./${ARTIFACT1_ONAME};
 
     # use it to select iteration to use for rest of extraction.
     # Note browsertime numbering starts at 0, artifact numbering starts at 1
-    ITER=`$ITERATIONFINDER ./${ARTIFACT1_ONAME}`
+    ITER=`$XITERATION ./${ARTIFACT1_ONAME}`
     ITER=$((ITER + 1))
 
     # find video file.
@@ -52,49 +67,30 @@ get_artifact_and_unpack() {
 }
 
 
-# 2024-11-11
-# revision: 544768c159ebb03a8419e5fe3b1135bbce4965a5 amarc@mozilla.com
-#get_artifact_and_unpack "android-amazon-chrome" "XVtnHMq5RIKSjctXmONWUA"
-#get_artifact_and_unpack "android-amazon-firefox" "FY3DkYW_TqK-OAAnRWUCag"
-#get_artifact_and_unpack "linux-amazon-chrome" "bSrPsvpRRyuV8Viufi2ThA"
-#get_artifact_and_unpack "linux-amazon-firefox" "MK_AQzRzTxicH4mqSoLwmA"
-#get_artifact_and_unpack "win11-amazon-chrome" "AMQmRGlnQECayEI5w7AFzw"
-#get_artifact_and_unpack "win11-amazon-firefox" "ac68E6Y1R5eYweHTaGtNEQ"
+# latest platform almost-matches as of 2024-12-12
 
-# 2024-11-13
-# revision: 723946b9a47990aa6253585366bb18863de4df33
-#get_artifact_and_unpack "android-amazon-chrome" "TZYbceDiQmi9QFRD-p5SFA"
-#get_artifact_and_unpack "android-amazon-firefox" "SRBmXxxqQgqdh93HmOnarA"
-#get_artifact_and_unpack "linux-amazon-chrome" ""
-#get_artifact_and_unpack "linux-amazon-firefox" "TL0sHKldQ1e_yCOZnRqwAQ"
-#get_artifact_and_unpack "win11-amazon-chrome" "Oa70G72URmi3IWnVPCBjfA"
-#get_artifact_and_unpack "win11-amazon-firefox" "HJZ7SBoBT_Cm27D5w05_3g"
+# 2024-12-11
+# revision 2b2422cd05b931e4ebe38754df3ca56ce3e3dc2e
+# "amarc@mozilla.com", id(486417162), push_id(1548183)
+get_artifact_and_unpack "win11" "amazon" "chrome" "GOquU6R6TImHYqmnOnLAhA"
+get_artifact_and_unpack "win11" "bing" "chrome" "b4CUU1UFSoqDmU81cfFwxQ"
+get_artifact_and_unpack "win11" "cnn" "chrome" "aCXYDNr_QGa3uL7w0RQPjw"
+get_artifact_and_unpack "win11" "fandom" "chrome" "JseHKJZ3R7i9BF8Pn5DE3Q"
+get_artifact_and_unpack "win11" "gslides" "chrome" "dRRIygVRQju1jpbvMmAPgA"
+get_artifact_and_unpack "win11" "instagram" "chrome" "QmXPDH7LRuGcuF2TL18jdg"
+get_artifact_and_unpack "win11" "twitter" "chrome" "GcZMIRKXTPWvfj4_qpCC6g"
+get_artifact_and_unpack "win11" "wikipedia" "chrome" "D7AcB7WFRQ6nPZ3eCJUfhw"
+get_artifact_and_unpack "win11" "yahoo-mail" "chrome" "EK3nYflJSRWl4sVj-egNEA"
 
-# 2024-11-15T09:34:47Z
-# revision: f918befd42312cdf96757bea838a55620ce4cb7f
-# pstanciu@mozilla.com, id(482802694), push_id(1533676)
-#get_artifact_and_unpack "android-amazon-chrome" "SbxKRIQhTQK7bNLVazz56A"
-#get_artifact_and_unpack "android-amazon-firefox" "TmBexU_jTky6uTRUnikYsw"
-
-# 2024-11-20T01:16:56Z
-# revision c03ba0b165f20fa7694f8ec94ad24134407b45a9
-# kshampur@mozilla.com
-#get_artifact_and_unpack "linux-amazon-chrome" "LAkRMFQeRlO_nGBz7NGMSg"
-#get_artifact_and_unpack "linux-amazon-firefox" "AngA8HVnTCWnP4Jq3fdY4Q"
-#get_artifact_and_unpack "win11-amazon-chrome" "ZSBBjQdFTUu1cccBNdZFrA"
-#get_artifact_and_unpack "win11-amazon-firefox" "FqLOMW9MTx-1BRFJVCQdYQ"
-
-# lastest platform matches as of 2024-11-20
-
-# 2024-11-20
-# revision a3474ea43c045230a16fe2546af125bc643d47c2
-get_artifact_and_unpack "android-allrecipes-chrome" "OxA_fZ3RSAStcrYEJXkwYA"
-get_artifact_and_unpack "android-allrecipes-firefox" "cATLFcaiSeuA9v1HtFV2Eg"
-
-get_artifact_and_unpack "android-espn-chrome" "CbP1VDn4SV-BlFHMxwPPaQ"
-get_artifact_and_unpack "android-espn-firefox" "KR3QO8o0TM-ETeSjgZKobQ"
-
-get_artifact_and_unpack "android-micros-sup-chrome" "CWg2rBBrQ3iKeCbZVZetVg"
-get_artifact_and_unpack "android-micros-sup-firefox" "Hvp-x46aS5K37HKIZWgWyg"
-
-
+# 2024-12-11
+# revision c0157231377305c8d7c22e452beff7c43fe4e9d7
+# "agoloman@mozilla.com", id(486540021), push_id(1548795)
+get_artifact_and_unpack "win11" "amazon" "firefox" "eM_a4US3SECL0A39m78I0A"
+get_artifact_and_unpack "win11" "bing" "firefox" "aDN9Eq2QTcah5PE9i_DaJw"
+get_artifact_and_unpack "win11" "cnn" "firefox" "Jg4GDO_4Q-mAjmv3iLXksQ"
+get_artifact_and_unpack "win11" "fandom" "firefox" "C2jYIa6ERRqaaEsNQipkzw"
+get_artifact_and_unpack "win11" "gslides" "firefox" "Yp3c1TUrSyK48eU1tPunkg"
+get_artifact_and_unpack "win11" "instagram" "firefox" "azd7JTRXTzKSGPnTJ7ZiCA"
+get_artifact_and_unpack "win11" "twitter" "firefox" "NmdyxwohTjCCMBk_R0-oaw"
+get_artifact_and_unpack "win11" "wikipedia" "firefox" "ZfmKQ2-0Q7WENdwWy7rOag"
+get_artifact_and_unpack "win11" "yahoo-mail" "firefox" "MyHCxztqT5Se__p6qoUJVA"

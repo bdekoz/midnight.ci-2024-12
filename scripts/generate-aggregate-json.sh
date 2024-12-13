@@ -2,8 +2,8 @@
 
 XURLMIN=$MOZPERFAX/bin/moz-perf-x-transform-url.exe
 XAGGREGATE=../../scripts/generate_aggregate_json_by_date.py
-CHROMEDIR=chrome_release
-FIREFOXDIR=fenix_nightly
+CHROMEDIR=chrome
+FIREFOXDIR=firefox
 
 ODIR=tmp
 if [ ! -d tmp ]; then
@@ -56,7 +56,7 @@ generate_platform_by_sitelist() {
    done
 }
 
-generate_platform_by_sitelist "android" "../sitelist.txt" "2024-11-10"
+generate_platform_by_sitelist "win11" "../sitelist.txt" "2024-12-11"
 
 # 3
 generate_data_json() {
@@ -80,4 +80,4 @@ generate_data_json() {
     echo "]" >> $OFILE
 }
 
-#generate_data_json
+generate_data_json
