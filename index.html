@@ -281,7 +281,7 @@ tr:hover {
   if (os) {
     window.platformStatus = os;
   } else {
-    window.platformStatus = 'android';
+    window.platformStatus = 'win11';
   }
 
   // Set some defaults.
@@ -694,10 +694,10 @@ tr:hover {
     <div class="dropdown">
       <label for="platform-select">Platform:</label>
       <select id="platform-select" onchange="setPlatform(this.value)">
-	<option value="android">Android</option>
+	<option value="win11">Windows</option>
 	<!--
 	<option value="linux">Linux</option>
-	<option value="win11">Windows</option>
+	<option value="android">Android</option>
 	-->
       </select>
     </div>
