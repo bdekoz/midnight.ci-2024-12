@@ -61,7 +61,8 @@ generate_platform_by_sitelist() {
        LEFT="$FIREFOXDIR/$URLM.mp4"
        RIGHT="$CHROMEDIR/$URLM.mp4"
 
-       $XSIDEXSIDE --base-video $LEFT --new-video $RIGHT
+       #$XSIDEXSIDE --base-video $LEFT --new-video $RIGHT
+       $XSIDEXSIDE --base-video $LEFT --new-video $RIGHT --remove-orange
 
        # rename
        mv custom-side-by-side.mp4 ${ODIR}/${ARTIFACT_BASE}-side-by-side.mp4
