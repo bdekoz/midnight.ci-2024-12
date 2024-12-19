@@ -113,12 +113,46 @@ get_artifact_and_unpack() {
 #get_artifact_and_unpack "linux" "wikipedia" "firefox" "RglKQhh_T-Ws5-Y8lENbyA"
 #get_artifact_and_unpack "linux" "yahoo-mail" "firefox" "K5YzrYQiQwq0d954QbiCgQ"
 
-get_artifact_and_unpack "linux" "amazon" "chrome" "IWQuc8gzTNqCiQ1MpMgjoQ"
-get_artifact_and_unpack "linux" "bing" "chrome" "WX1NThl6TdqtJm7bHnatgg"
-get_artifact_and_unpack "linux" "cnn" "chrome" "W20zn2XMSKGwyjHiF9pKHg"
-get_artifact_and_unpack "linux" "fandom" "chrome" "D84u4Of6TheMnBVhKNYWpw"
-get_artifact_and_unpack "linux" "gslides" "chrome" "c0ecCwY2RFe9GTirfNVWFA"
-get_artifact_and_unpack "linux" "instagram" "chrome" "bO9c0KnrSpmrO8bxr2Sc9Q"
-get_artifact_and_unpack "linux" "twitter" "chrome" "UZwRsq4uRO2SUjKMoFg4Uw"
-get_artifact_and_unpack "linux" "wikipedia" "chrome" "agLdrX77S_6h-jDqC_Vc8g"
-get_artifact_and_unpack "linux" "yahoo-mail" "chrome" "D-Rb65ykRmy2wZ1tODtXBg"
+#get_artifact_and_unpack "linux" "amazon" "chrome" "IWQuc8gzTNqCiQ1MpMgjoQ"
+#get_artifact_and_unpack "linux" "bing" "chrome" "WX1NThl6TdqtJm7bHnatgg"
+#get_artifact_and_unpack "linux" "cnn" "chrome" "W20zn2XMSKGwyjHiF9pKHg"
+#get_artifact_and_unpack "linux" "fandom" "chrome" "D84u4Of6TheMnBVhKNYWpw"
+#get_artifact_and_unpack "linux" "gslides" "chrome" "c0ecCwY2RFe9GTirfNVWFA"
+#get_artifact_and_unpack "linux" "instagram" "chrome" "bO9c0KnrSpmrO8bxr2Sc9Q"
+#get_artifact_and_unpack "linux" "twitter" "chrome" "UZwRsq4uRO2SUjKMoFg4Uw"
+#get_artifact_and_unpack "linux" "wikipedia" "chrome" "agLdrX77S_6h-jDqC_Vc8g"
+#get_artifact_and_unpack "linux" "yahoo-mail" "chrome" "D-Rb65ykRmy2wZ1tODtXBg"
+
+# 2024-12-18
+#https://treeherder.mozilla.org/jobs?repo=mozilla-central&searchStr=a55%2Ctp6&revision=afa1013c2e3013ee65a6f03fe76ca7a75b5051c5
+# fenix w/ power on A55
+# revision afa1013c2e3013ee65a6f03fe76ca7a75b5051c5
+# amarc
+# btime fenix tier 2
+#get_artifact_and_unpack "android" "amazon" "firefox" "Pz0rsAvXSgi8YGKLeoP7AQ"
+#get_artifact_and_unpack "android" "bing" "firefox" "ZOkZuN92Qre5DqSBmGFhIQ"
+#get_artifact_and_unpack "android" "cnn" "firefox" "aiy21RmuQpeiMVIel5mgQA"
+#get_artifact_and_unpack "android" "ebay" "firefox" "WsQIa8u6Ru2Z89ek8iuxag"
+#get_artifact_and_unpack "android" "imdb" "firefox" "NeOXgSnlRNK_na-7zWljvg"
+#get_artifact_and_unpack "android" "instagram" "firefox" "dhhvY2IST5mr39ontjtO6w"
+#get_artifact_and_unpack "android" "stacko" "firefox" "PJ9cu65yTESNMTflROBTpg"
+#get_artifact_and_unpack "android" "wikipedia" "firefox" "Hur529PkQiuaIQvN7sICJQ"
+#get_artifact_and_unpack "android" "reddit" "firefox" "ZrncMronRjG_0fHjfm2QLg"
+
+# 2024-12-18
+# revision
+# smolnar
+# Btime-nofis
+get_artifact_and_unpack "android" "amazon" "firefox" "c-bi2qbHQDq1mNinVM_uAQ"
+get_artifact_and_unpack "android" "allrecipes" "firefox" "Leqpq2V8QsWHMxNhZ_cnYQ"
+get_artifact_and_unpack "android" "espn" "firefox" "Nvtqn_FSSzOblgHDPviJIg"
+get_artifact_and_unpack "android" "google" "firefox" "RNsajmXlR4WerKFDengHqg"
+get_artifact_and_unpack "android" "micros-sup" "firefox" "UB-Zm010QDa5UEX5sIeNQw"
+#get_artifact_and_unpack "android" "youtube-w" "firefox" ""
+
+get_artifact_and_unpack "android" "amazon" "chrome" "OcNIhQnRRx6mnNb7PPdMgw"
+get_artifact_and_unpack "android" "allrecipes" "chrome" "QK-a-Z6US-m8lP5oo5yUxQ"
+get_artifact_and_unpack "android" "espn" "chrome" "TUgwhSneQlSfTle8X-PH8w"
+get_artifact_and_unpack "android" "google" "chrome" "Y43TUXvASAmWlp5VdGLsXw"
+get_artifact_and_unpack "android" "micros-sup" "chrome" "Qf83npuASMSzEsSwwtyZlQ"
+#get_artifact_and_unpack "android" "youtube-w" "chrome" "Dwd3NMsZStyfYGrhvjyPAg"

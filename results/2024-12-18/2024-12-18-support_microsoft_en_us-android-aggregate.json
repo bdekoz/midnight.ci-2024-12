@@ -1,0 +1,442 @@
+{
+  "test": "support_microsoft_en_us",
+  "platform": "android",
+  "date": "2024-12-18",
+  "video_side_by_side": "2024-12-18-android-support_microsoft_en_us-side-by-side.mp4",
+  "firefox": {
+    "filmstrip_interval": 100,
+    "filmstrip": {
+      "00000": "2024-12-18-android-support_microsoft_en_us-firefox_00000.png",
+      "00100": "2024-12-18-android-support_microsoft_en_us-firefox_00100.png",
+      "00200": "2024-12-18-android-support_microsoft_en_us-firefox_00200.png",
+      "00300": "2024-12-18-android-support_microsoft_en_us-firefox_00300.png",
+      "00400": "2024-12-18-android-support_microsoft_en_us-firefox_00400.png",
+      "00500": "2024-12-18-android-support_microsoft_en_us-firefox_00500.png",
+      "00600": "2024-12-18-android-support_microsoft_en_us-firefox_00600.png",
+      "00700": "2024-12-18-android-support_microsoft_en_us-firefox_00700.png",
+      "00800": "2024-12-18-android-support_microsoft_en_us-firefox_00800.png"
+    },
+    "metrics": {
+      "fcp": {
+        "median": "367",
+        "stddev": "74.000000",
+        "rsd": "19.702583"
+      },
+      "largestContentfulPaintloadTime": {
+        "median": "465",
+        "stddev": "215.000000",
+        "rsd": "47.163149"
+      },
+      "largestContentfulPaintrenderTime": {
+        "median": "465",
+        "stddev": "127.000000",
+        "rsd": "25.013068"
+      },
+      "redirectStart": {
+        "median": "0",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "redirectEnd": {
+        "median": "0",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "fetchStart": {
+        "median": "-2",
+        "stddev": "1.000000",
+        "rsd": "-36.503975"
+      },
+      "domainLookupStart": {
+        "median": "34",
+        "stddev": "6.000000",
+        "rsd": "16.211216"
+      },
+      "connectStart": {
+        "median": "34",
+        "stddev": "6.000000",
+        "rsd": "16.069550"
+      },
+      "requestStart": {
+        "median": "37",
+        "stddev": "6.000000",
+        "rsd": "15.852887"
+      },
+      "responseStart": {
+        "median": "42",
+        "stddev": "6.000000",
+        "rsd": "14.857088"
+      },
+      "domInteractive": {
+        "median": "504",
+        "stddev": "68.000000",
+        "rsd": "13.260340"
+      },
+      "domComplete": {
+        "median": "901",
+        "stddev": "290.000000",
+        "rsd": "29.191307"
+      },
+      "loadEventEnd": {
+        "median": "911",
+        "stddev": "292.000000",
+        "rsd": "29.193584"
+      },
+      "SpeedIndex": {
+        "median": "711",
+        "stddev": "151.000000",
+        "rsd": "19.868022"
+      },
+      "VisualComplete85": {
+        "median": "992",
+        "stddev": "295.000000",
+        "rsd": "27.055765"
+      },
+      "LastVisualChange": {
+        "median": "992",
+        "stddev": "282.000000",
+        "rsd": "25.576955"
+      },
+      "lcp_element": "\"\"https://support.content.office.net/en-us/media/smc-hero.jpg\"\"",
+      "PerceptualSpeedIndexProgress": [
+        {
+          "timestamp": "0.000000",
+          "percent": "0"
+        },
+        {
+          "timestamp": "450.000000",
+          "percent": "57"
+        },
+        {
+          "timestamp": "467.000000",
+          "percent": "58"
+        },
+        {
+          "timestamp": "517.000000",
+          "percent": "61"
+        },
+        {
+          "timestamp": "566.000000",
+          "percent": "64"
+        },
+        {
+          "timestamp": "658.000000",
+          "percent": "72"
+        },
+        {
+          "timestamp": "666.000000",
+          "percent": "73"
+        },
+        {
+          "timestamp": "768.000000",
+          "percent": "82"
+        },
+        {
+          "timestamp": "782.000000",
+          "percent": "83"
+        },
+        {
+          "timestamp": "959.000000",
+          "percent": "100"
+        }
+      ],
+      "ContentfulSpeedIndexProgress": [
+        {
+          "timestamp": "0.000000",
+          "percent": "0"
+        },
+        {
+          "timestamp": "450.000000",
+          "percent": "85"
+        },
+        {
+          "timestamp": "467.000000",
+          "percent": "87"
+        },
+        {
+          "timestamp": "517.000000",
+          "percent": "94"
+        },
+        {
+          "timestamp": "566.000000",
+          "percent": "98"
+        },
+        {
+          "timestamp": "658.000000",
+          "percent": "99"
+        },
+        {
+          "timestamp": "666.000000",
+          "percent": "99"
+        },
+        {
+          "timestamp": "768.000000",
+          "percent": "99"
+        },
+        {
+          "timestamp": "782.000000",
+          "percent": "99"
+        },
+        {
+          "timestamp": "959.000000",
+          "percent": "100"
+        }
+      ],
+      "SpeedIndexProgress": [
+        {
+          "timestamp": "0.000000",
+          "percent": "0"
+        },
+        {
+          "timestamp": "450.000000",
+          "percent": "16"
+        },
+        {
+          "timestamp": "467.000000",
+          "percent": "19"
+        },
+        {
+          "timestamp": "517.000000",
+          "percent": "19"
+        },
+        {
+          "timestamp": "566.000000",
+          "percent": "53"
+        },
+        {
+          "timestamp": "658.000000",
+          "percent": "59"
+        },
+        {
+          "timestamp": "666.000000",
+          "percent": "59"
+        },
+        {
+          "timestamp": "768.000000",
+          "percent": "59"
+        },
+        {
+          "timestamp": "782.000000",
+          "percent": "59"
+        },
+        {
+          "timestamp": "959.000000",
+          "percent": "100"
+        }
+      ]
+    }
+  },
+  "chrome": {
+    "filmstrip_interval": 100,
+    "filmstrip": {
+      "00000": "2024-12-18-android-support_microsoft_en_us-chrome_00000.png",
+      "00100": "2024-12-18-android-support_microsoft_en_us-chrome_00100.png",
+      "00200": "2024-12-18-android-support_microsoft_en_us-chrome_00200.png",
+      "00300": "2024-12-18-android-support_microsoft_en_us-chrome_00300.png",
+      "00400": "2024-12-18-android-support_microsoft_en_us-chrome_00400.png",
+      "00500": "2024-12-18-android-support_microsoft_en_us-chrome_00500.png",
+      "00600": "2024-12-18-android-support_microsoft_en_us-chrome_00600.png",
+      "00700": "2024-12-18-android-support_microsoft_en_us-chrome_00700.png",
+      "00800": "2024-12-18-android-support_microsoft_en_us-chrome_00800.png",
+      "00900": "2024-12-18-android-support_microsoft_en_us-chrome_00900.png",
+      "01000": "2024-12-18-android-support_microsoft_en_us-chrome_01000.png"
+    },
+    "metrics": {
+      "fcp": {
+        "median": "389",
+        "stddev": "68.000000",
+        "rsd": "17.283111"
+      },
+      "largestContentfulPaintloadTime": {
+        "median": "409",
+        "stddev": "43.000000",
+        "rsd": "10.251919"
+      },
+      "largestContentfulPaintrenderTime": {
+        "median": "409",
+        "stddev": "43.000000",
+        "rsd": "10.251919"
+      },
+      "redirectStart": {
+        "median": "0",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "redirectEnd": {
+        "median": "0",
+        "stddev": "0.000000",
+        "rsd": "0.000000"
+      },
+      "fetchStart": {
+        "median": "7",
+        "stddev": "1.000000",
+        "rsd": "21.022845"
+      },
+      "domainLookupStart": {
+        "median": "7",
+        "stddev": "1.000000",
+        "rsd": "21.022845"
+      },
+      "connectStart": {
+        "median": "11",
+        "stddev": "2.000000",
+        "rsd": "20.966636"
+      },
+      "requestStart": {
+        "median": "89",
+        "stddev": "12.000000",
+        "rsd": "12.795439"
+      },
+      "responseStart": {
+        "median": "101",
+        "stddev": "12.000000",
+        "rsd": "11.310182"
+      },
+      "domInteractive": {
+        "median": "505",
+        "stddev": "47.000000",
+        "rsd": "9.021195"
+      },
+      "domComplete": {
+        "median": "1078",
+        "stddev": "170.000000",
+        "rsd": "15.811337"
+      },
+      "loadEventEnd": {
+        "median": "1087",
+        "stddev": "173.000000",
+        "rsd": "15.820794"
+      },
+      "SpeedIndex": {
+        "median": "768",
+        "stddev": "92.000000",
+        "rsd": "12.073163"
+      },
+      "VisualComplete85": {
+        "median": "1178",
+        "stddev": "168.000000",
+        "rsd": "14.343500"
+      },
+      "LastVisualChange": {
+        "median": "1178",
+        "stddev": "168.000000",
+        "rsd": "14.343500"
+      },
+      "lcp_element": "\"\"https://support.content.office.net/en-us/media/smc-hero.jpg\"\"",
+      "PerceptualSpeedIndexProgress": [
+        {
+          "timestamp": "0.000000",
+          "percent": "0"
+        },
+        {
+          "timestamp": "396.000000",
+          "percent": "43"
+        },
+        {
+          "timestamp": "412.000000",
+          "percent": "44"
+        },
+        {
+          "timestamp": "479.000000",
+          "percent": "47"
+        },
+        {
+          "timestamp": "512.000000",
+          "percent": "50"
+        },
+        {
+          "timestamp": "528.000000",
+          "percent": "51"
+        },
+        {
+          "timestamp": "545.000000",
+          "percent": "52"
+        },
+        {
+          "timestamp": "880.000000",
+          "percent": "77"
+        },
+        {
+          "timestamp": "1178.000000",
+          "percent": "100"
+        }
+      ],
+      "ContentfulSpeedIndexProgress": [
+        {
+          "timestamp": "0.000000",
+          "percent": "0"
+        },
+        {
+          "timestamp": "396.000000",
+          "percent": "87"
+        },
+        {
+          "timestamp": "412.000000",
+          "percent": "89"
+        },
+        {
+          "timestamp": "479.000000",
+          "percent": "96"
+        },
+        {
+          "timestamp": "512.000000",
+          "percent": "99"
+        },
+        {
+          "timestamp": "528.000000",
+          "percent": "99"
+        },
+        {
+          "timestamp": "545.000000",
+          "percent": "100"
+        },
+        {
+          "timestamp": "880.000000",
+          "percent": "100"
+        },
+        {
+          "timestamp": "1178.000000",
+          "percent": "100"
+        }
+      ],
+      "SpeedIndexProgress": [
+        {
+          "timestamp": "0.000000",
+          "percent": "0"
+        },
+        {
+          "timestamp": "396.000000",
+          "percent": "14"
+        },
+        {
+          "timestamp": "412.000000",
+          "percent": "18"
+        },
+        {
+          "timestamp": "479.000000",
+          "percent": "51"
+        },
+        {
+          "timestamp": "512.000000",
+          "percent": "51"
+        },
+        {
+          "timestamp": "528.000000",
+          "percent": "56"
+        },
+        {
+          "timestamp": "545.000000",
+          "percent": "57"
+        },
+        {
+          "timestamp": "880.000000",
+          "percent": "57"
+        },
+        {
+          "timestamp": "1178.000000",
+          "percent": "100"
+        }
+      ]
+    }
+  }
+}
